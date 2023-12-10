@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first {
+    border: 1px solid #e6e6e6;
+    height: 400px;
+    width: 350px;
+    margin: 10px;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header img{
+    height: 70px;
+    width: 200px;
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+
+.first input {
+    height: 60px;
+    margin: 3px -40px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+    background-color: #fafafa;
+}
+
+.btn{
+    background-color: #4cb5f9;
+    height: 60px;
+    margin: 10px -40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.border{
+    display: flex;
+    flex-direction: row;
+}
+
+.or{
+    margin-left: -5px;
+}
+
+.line1, .line2{
+    position: relative;
+    top:0.5rem;
+}
+
+hr{
+    border: 0.5px solid #e6e6e6;
+    width: 120px;
+    margin-left: -40px;
+}
+
+.line1{
+    margin-right: 15px;
+}
+
+.line2{
+    margin-left: 50px;
+}
+
+
+.facebook{
+    text-align: center;
+    color: #385185;
+    font-size: 15px;
+    line-height: 5;
+}
+
+.img-fb {
+    height: 13px;
+    width: 13px;
+}
+
+.first a{
+    text-align: center;
+    color: #385185;
+    margin-bottom: -50px;
+}
+
+.forgot{
+    font-size: 12px;
+}
+
+.second {
+    border: 1px solid #e6e6e6;
+    width: 350px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.second a{
+    color: #0095f7;
+}
+
+
+
+.img{
+    height: 45px;
+    width: 120px;
+    display: inline;
+
+}
+
+.third {
+    text-align: center;
+    margin:5px;
+    line-height: 2;
+}
+
+.third img{
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.footer {
+    width: 100%;
+    margin:20px 10%;
+    padding: 10px;
+    text-align: center;
+    line-height: 2;
+}
+
+.footer a{
+    text-decoration: none;
+    margin: 5px;
+    color: rgb(198, 198, 198);
+    font-size: 15px;
+    min-height: 100%;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+
